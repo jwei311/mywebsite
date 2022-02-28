@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    border-bottom:solid white 1px ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+    background-color: black;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: red;
+    font-size: large;
+}
+
+#martin{
+    margin-left: 20px;
+}
+
+nav ul li{
+    list-style: none;
+    color: rgb(251, 255, 0);
+}
+
+#navright{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-right: 40px;
+    font-size: large;
+}
+
+#page{
+    height: 100vh;
+    display: flex;
+    flex-direction: row; 
+}
+
+#page2{
+    height: 100vh;
+    display: flex;
+    flex-direction: row; 
+}
+
+.main{
+    background-image: url(background1.jpg);
+}
+
+#content{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+    width: 50%;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-right: 50px;
+}
+
+#text1{
+    color: white;
+}
+#oscar{
+    height: 100vh;
+    width: auto;
+    margin-left: 60px;
+}
+
+#decor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#block{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 25%;
+    background-color: white;
+}
+
+#line{
+    display: inline-block;
+    width:500px;
+    height: 2px;
+    background-color: white;    
+}
+
+#header{
+    display: flex;
+    display: block;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#smile{
+    border: solid black;
+    border-radius: 5%;
+    height: 78vh;
+    width: auto;
+}
+
+#lol{
+    border-radius: 1%;
+    border: solid black;
+    padding: 200px 25px 250px 25px;
+    background-color:rgb(251, 148, 3);
+}
+#direct{
+    border: solid black;
+    border-radius: 5%;
+    height: 80vh;
+    width: auto;
+}
+
+#lmao{
+    border-radius: 1%;
+    border: solid black;
+    padding: 200px 25px 250px 25px;
+    background-color:rgb(230, 11, 11);
+}
+
+#end{
+    background-color: black;
+}
+
+#endd{
+    background-color: black;
+    height: 10vh;
+    border: solid black;
+    display: flex;
+    color: aliceblue;
+    align-items: left;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 100px;
+}
